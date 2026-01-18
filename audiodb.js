@@ -7,7 +7,7 @@ const AUDIO_GROUPS = [
   },
   {
     id: "Sound-Effects",
-    label: "音效特效"
+    label: "綜藝音效"
   }
 ];
 
@@ -64,7 +64,7 @@ const AUDIO_DB = [
     mode: "fade"
   },
 
-  // ===== 群組 2：Sound-Effects（音效特效） =====
+  // ===== 群組 2：Sound-Effects（綜藝音效） =====
  {
     id: "se_jinma",
     group: "Sound-Effects",
