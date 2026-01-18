@@ -1,17 +1,19 @@
 // audiodb.js
-// BGM-HUB 音效 DB + 群組設定
-
-// 分頁（活頁夾）群組
+// 群組（分頁）設定
 const AUDIO_GROUPS = [
   {
     id: "miyin-tellmewhy",
     label: "迷因 - 回答我"
+  },
+  {
+    id: "Sound-Effects",
+    label: "音效特效"
   }
-  // 未來要新增群組就在這裡繼續加
 ];
 
 // 單一音效資料
 const AUDIO_DB = [
+  // ===== 群組 1：迷因 - 回答我 =====
   {
     id: "miyin_answerme",
     group: "miyin-tellmewhy",
@@ -60,7 +62,130 @@ const AUDIO_DB = [
     name: "能~能~能~",
     file: "audio/miyin-tellmewhy/can.WAV",
     mode: "fade"
-  }
+  },
 
-  // 未來新增其它群組的音效，就繼續往下加
+  // ===== 群組 2：Sound-Effects（音效特效） =====
+ {
+    id: "se_jinma",
+    group: "Sound-Effects",
+    name: "金馬頒獎音樂",
+    file: "audio/Sound-Effects/金馬頒獎音樂.WAV",
+    mode: "fade"
+  },
+    {
+    id: "se_foxintro",
+    group: "Sound-Effects",
+    name: "福斯電影開頭",
+    file: "audio/Sound-Effects/福斯電影開頭.WAV",
+    mode: "fade"
+  },
+    {
+    id: "se_huanhusheng",
+    group: "Sound-Effects",
+    name: "歡呼聲",
+    file: "audio/Sound-Effects/歡呼聲.WAV",
+    mode: "fade"
+  },
+    {
+    id: "se_zhangsheng",
+    group: "Sound-Effects",
+    name: "掌聲",
+    file: "audio/Sound-Effects/掌聲.WAV",
+    mode: "fade"
+  },
+  {
+    id: "se_kexi",
+    group: "Sound-Effects",
+    name: "可惜",
+    file: "audio/Sound-Effects/可惜.WAV",
+    mode: "fade"
+  },
+  {
+    id: "se_dong",
+    group: "Sound-Effects",
+    name: "咚",
+    file: "audio/Sound-Effects/咚.WAV",
+    mode: "fade"
+  },
+  {
+    id: "se_dongdong",
+    group: "Sound-Effects",
+    name: "咚咚",
+    file: "audio/Sound-Effects/咚咚.WAV",
+    mode: "fade"
+  },
+  {
+    id: "se_bo",
+    group: "Sound-Effects",
+    name: "啵",
+    file: "audio/Sound-Effects/啵.WAV",
+    mode: "fade"
+  },
+  {
+    id: "se_wandanle",
+    group: "Sound-Effects",
+    name: "完蛋了",
+    file: "audio/Sound-Effects/完蛋了.WAV",
+    mode: "fade"
+  },
+
+  {
+    id: "se_zouren",
+    group: "Sound-Effects",
+    name: "揍人",
+    file: "audio/Sound-Effects/揍人.WAV",
+    mode: "fade"
+  },
+
+  {
+    id: "se_xiaoyin",
+    group: "Sound-Effects",
+    name: "消音",
+    file: "audio/Sound-Effects/消音.WAV",
+    mode: "fade"
+  },
+
+  {
+    id: "se_daduile",
+    group: "Sound-Effects",
+    name: "答對了",
+    file: "audio/Sound-Effects/答對了.WAV",
+    mode: "fade"
+  },
+  {
+    id: "se_dacuole",
+    group: "Sound-Effects",
+    name: "答錯了",
+    file: "audio/Sound-Effects/答錯了.WAV",
+    mode: "fade"
+  },
+  {
+    id: "se_jinzhang",
+    group: "Sound-Effects",
+    name: "緊張",
+    file: "audio/Sound-Effects/緊張.WAV",
+    mode: "fade"
+  },
+  {
+    id: "se_tiaoyue",
+    group: "Sound-Effects",
+    name: "跳躍",
+    file: "audio/Sound-Effects/跳躍.WAV",
+    mode: "fade"
+  },
+
+  {
+    id: "se_luo",
+    group: "Sound-Effects",
+    name: "鑼",
+    file: "audio/Sound-Effects/鑼.WAV",
+    mode: "fade"
+  },
+  {
+    id: "se_nanguo",
+    group: "Sound-Effects",
+    name: "難過",
+    file: "audio/Sound-Effects/難過.WAV",
+    mode: "fade"
+  }
 ];
